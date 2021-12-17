@@ -85,7 +85,8 @@ markdown_extensions:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.mark
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
 
 # Plugins
 plugins:
